@@ -8,6 +8,12 @@ const server = http.createServer((req,res)=>{
     res.setHeader('Content-Type','text-plain')
     res.end('Servidor funcionando en node \n')
 })
+// mandar llamar el servidor
+server.listen(port, hostname,()=>{
+    console.log('el servidor node está corriendo en http://127.0.0.1:3000')
+})
+
+
 
 
 

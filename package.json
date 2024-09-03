@@ -4,7 +4,7 @@
   "description": "es un servidor básico de node.js con un puerto",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "dev": "node index.js"
   },
   "keywords": [
     "node.js",
